@@ -7,4 +7,9 @@ public enum OperatorType {
     MULTIPLE('*'),
     DIVISION('/');
 
+    private char operator;
+
+    OperatorType(char operator) {
+        this.operator = operator;
+    }
 }
