@@ -29,11 +29,11 @@ public class Main {
             int num2 = sc.nextInt();
             sc.nextLine();
 
-            if (operater == OperatorType.PLUS) {
+            if (operater == '+') {
                 int result = calculator.sum(num1, num2);
                 System.out.println(result);
                 calculator.addHistory(result);
-            } else if (operater == OperatorType.MINUS) {
+            } else if (operater == '-') {
                 int result = calculator.minus(num1, num2);
                 System.out.println(result);
                 calculator.addHistory(result);
