@@ -12,7 +12,6 @@ public class Main {
         String off = new String();
         String check = new String();
 
-
         do {
             System.out.println("첫번째 숫자를 입력하세요");
             int num1 = sc.nextInt();
