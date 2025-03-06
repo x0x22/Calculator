@@ -12,9 +12,14 @@ public class Calculator {
         history.add(result);
     }
 
-    // 리스트에서 삭제 세터?
+    // 리스트에서 삭제
     public void removeHistory() {
         history.remove(0);
+    }
+
+    // 게터는 void 사용 불가
+    public List<Integer> getHistory() {
+        return history;
     }
 
     // 계산 기록 출력 게터?
