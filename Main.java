@@ -61,7 +61,7 @@ public class Main {
                 calculator.printHistory();
             }
 
-            System.out.println("기록을 삭제하시겠습니까? (1번째 기록부터 삭제됩니다.)");
+            System.out.println("기록을 삭제하시겠습니까? (y/n) (1번째 기록부터 삭제됩니다.)");
             check = sc.next();
             while (!check.equals("y") && !check.equals("n")) {
                 System.out.println("잘못 입력했습니다. 'y' / 'n'을 입력해주세요");
