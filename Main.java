@@ -5,12 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] arg) {
         Scanner sc = new Scanner(System.in);
-
         Calculator calculator = new Calculator();
-        OperatorType operatorType = OperatorType.PLUS;
-        OperatorType operatorType = OperatorType.MINUS;
-        OperatorType operatorType = OperatorType.MULTIPLE;
-        OperatorType operatorType = OperatorType.DIVISION;
 
         // 변수 선언과 초기화
 
